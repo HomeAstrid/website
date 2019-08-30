@@ -1,0 +1,1 @@
+*/10 * * * * cd /home/astrid/cron/; wget http://astrid.ugent.be/; mv index.html index-`date +"%d-%m-%Y-%T"`.html

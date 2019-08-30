@@ -1,0 +1,337 @@
+/*Opmaak file */
+
+root {
+	display: block;
+	}
+	
+html, body{
+	width: 99%;
+	height: 99%;
+	font-family: Lucida Grande, Calibri, sans-serif;
+	font-size: 12pt;
+	background-color: #f9f9f9;
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+    display:box;
+    box-pack:center;
+    box-align:center;
+	}
+h3{
+    color: black;
+    display: block;
+    font-size: 20px;
+    height: 25px;
+    margin-bottom: 2px;
+    margin-top: 1px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+#foto{
+	height: 160px;
+    width: 160px;
+}
+#info{
+	height: 160px;
+    width: 520px;
+}       
+body#page {
+    display: block;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    display: block;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+    display:box;
+    box-pack:center;
+    box-align:center;
+        }    
+        
+input[type="text"],input[type="password"]{
+    width: 335px;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border: 1px #c2c2c2 solid;
+    color: #444;
+}
+        
+.textarea {
+    font-size: 12pt;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border: 1px #c2c2c2 solid;
+    color: #444;
+}
+    
+.upload {
+    font-size: 10pt;
+    width: auto;
+    border: 0px;
+}
+        }
+	
+/*Classes */
+.class{}
+
+.formtext {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #707070;
+}
+
+.formbutton{
+    background-color: #990000;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: 0px solid #dfdfdf;
+    border-radius: 14px;
+    -moz-border-radius: 14px;
+    width: 75px;
+    height: 25px;
+    float: right;
+    margin-top: 10px;
+}
+
+.formbutton:hover{
+    border: 1px solid #444;
+    color: #c2c2c2;
+    cursor: pointer;
+}
+
+.h1 {
+    font-size: 16pt;
+    color: darkblue;
+	font-weight:bold;
+    padding: 2px;
+    border-bottom: 0px solid darkblue;
+    width: inherit -2px;
+    background-color: inherit;
+}
+
+.newsbody {
+    background-color: #f9f9f9;
+    padding: 8px 8px;
+    margin-bottom: 16px;
+    border: 1px solid darkblue;
+}
+
+.am_head {
+    width: 940px;
+    margin: 0px 16px 16px 16px;
+    text-align: right;
+}
+
+.am_head a {
+    color: #990000;
+	outline: none;
+    text-decoration: none;
+}
+
+.am_head a:hover {
+    color: #333333;
+    cursor: pointer; 
+}
+
+/*ID's*/
+#id{}
+
+#container {
+	width: 320px;
+	height: 370px;
+    -webkit-box-flex:1;
+    -moz-box-flex:1; /* Needed to make this element flexible in Firefox */
+    box-flex:1;
+    max-width:320px;
+    margin:0 auto;
+	}
+	
+#loginbox {
+	width: 320px;
+	height: 220px;
+	background-color: white;
+	border: 1px solid #dfdfdf;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	box-shadow: 0px 0px 10px #c2c2c2;
+        padding: 0px;
+	}
+	
+#titleone {
+	color: #bf3604;
+	font-size: 24px;
+	font-family: Calibri;
+	width: auto;
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 0px;
+	margin-bottom: 15px;
+	}
+	
+#formbox {
+        width: 290px;
+        border: 0px solid black;
+        margin: 15px;
+        }
+        
+#wrapper {
+    clear: both;
+    width:976px;
+    margin:0 auto 0;
+	text-align:left;
+    border:0px solid #dfdfdf;
+    border-radius: 14px;
+    -moz-border-radius: 14px;
+    box-shadow: 0px 0px 10px #c2c2c2;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=135, Strength=10);
+    padding: 8px;
+    background-color: white;
+}
+
+#wrapper2 {
+	position:relative; 
+	width:100%; 
+	text-align:center; 
+	margin:0 auto 0;
+}
+
+#sidebar {
+    
+    float: left;
+    width: 243px;
+    border-right: 0px solid darkblue;
+    
+}
+
+#content {
+    
+    width: 960px;
+    clear: both;
+    
+    
+}
+
+#header {
+    
+    width: 960px;
+    height: 45px;
+    border-bottom: 0px solid darkblue;
+    clear: both;
+    margin-bottom: 16px;
+}
+
+#footer {
+    
+    clear: both;
+    /width: 960px;
+    text-align: center;
+    font-size: 12pt;
+    color: #707070;
+    
+    
+    
+}
+
+#main {
+ 
+    width: 700px;
+    float: right;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    
+}
+
+
+/*CSS DROPDOWN MENU */
+
+.menu{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	}
+.menu ul{
+	background:#111111;
+	height:35px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+.menu li{
+	float:left;
+	padding:0px;
+	}
+.menu li a{
+	background:#111111 url("../images/seperator.gif") bottom right no-repeat;
+	color:#cccccc;
+	display:block;
+	font-weight:normal;
+	line-height:35px;
+	margin:0px;
+	padding:0px 25px;
+	text-align:center;
+	text-decoration:none;
+	}
+	.menu li a:hover, .menu ul li:hover a{
+		background: darkblue url("../images/hover.gif") bottom center no-repeat;
+		color:#FFFFFF;
+		text-decoration:none;
+		}
+.menu li ul{
+	background:#333333;
+	display:none;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	position:absolute;
+	width:225px;
+	z-index:200;
+	/*top:1em;
+	left:0;*/
+	}
+.menu li:hover ul{
+	display:block;
+	
+	}
+.menu li li {
+	background:url('../images/sub_sep.gif') bottom left no-repeat;
+	display:block;
+	float:none;
+	margin:0px;
+	padding:0px;
+	width:225px;
+	}
+.menu li:hover li a{
+	background:none;
+	
+	}
+.menu li ul a{
+	display:block;
+	height:35px;
+	font-size:12px;
+	font-style:normal;
+	margin:0px;
+	padding:0px 10px 0px 15px;
+	text-align:left;
+	}
+.menu li ul a:hover, .menu li ul li:hover a{
+		background: darkblue url('../images/hover_sub.gif') center left no-repeat;
+		border:0px;
+		color:#ffffff;
+		text-decoration:none;
+	}
+.menu p{
+	clear:left;
+	}	
