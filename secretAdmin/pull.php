@@ -9,4 +9,5 @@ function execPrint($command) {
 }
 // Print the exec output inside of a pre element
 print("<pre>" . execPrint("git pull") . "</pre>");
+print("<pre>" . execPrint("whoami") . "</pre>");
 ?>
