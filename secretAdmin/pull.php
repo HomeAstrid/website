@@ -13,5 +13,5 @@ function execPrint($command) {
 }
 
 // Print the exec output inside of a pre element
-print("<pre>" . execPrint("cd ../ && git pull -v --commit") . "</pre>");
+print("<pre>" . execPrint("cd ../ && git pull -v --no-commit") . "</pre>");
 ?>
