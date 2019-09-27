@@ -1,14 +1,4 @@
 $(document).ready(function () {
-    /***************** Navbar-Collapse ******************/
-
-    $(window).scroll(function () {
-        if ($(".navbar").offset().top > 50) {
-            $(".navbar-fixed-top").addClass("top-nav-collapse");
-        } else {
-            $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        }
-    });
-
     /***************** Page Scroll ******************/
 
     $(function () {
@@ -21,12 +11,6 @@ $(document).ready(function () {
         });
     });
 
-    /***************** Scroll Spy ******************/
-
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: 51
-    })
 
     /***************** Owl Carousel ******************/
 
@@ -63,50 +47,21 @@ $(document).ready(function () {
         autoPlay: true
 
     });
-    /***************** Countdown ******************/
 
-    $('#fun-facts').bind('inview', function (event, visible, visiblePartX, visiblePartY) {
-        if (visible) {
-            $(this).find('.timer').each(function () {
-                var $this = $(this);
-                $({
-                    Counter: 0
-                }).animate({
-                    Counter: $this.text()
-                }, {
-                    duration: 2000,
-                    easing: 'swing',
-                    step: function () {
-                        $this.text(Math.ceil(this.Counter));
-                    }
-                });
-            });
-            $(this).unbind('inview');
-        }
-    });
     /***************** Google Maps ******************/
 
     function initialize() {
-        var mapCanvas = document.getElementById('map');
-        var myCenter = new google.maps.LatLng(51.026965,3.7119277);
-        var mapOptions = {
-            center: myCenter,
+        (new google.maps.Marker({position: new google.maps.LatLng(51.026965, 3.7119277)})).setMap(new google.maps.Map(document.getElementById('map'), {
+            center: new google.maps.LatLng(51.026965, 3.7119277),
             zoom: 13,
             mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var marker = new google.maps.Marker({position: myCenter});
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-        marker.setMap(map);
+        }));
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);
 
-    /***************** Wow.js ******************/
-    
-    new WOW().init();
-    
     /***************** Preloader ******************/
-    
+
     var preloader = $('.preloader');
     $(window).load(function () {
         preloader.remove();
