@@ -815,3 +815,10 @@ Media Queries Style
     font-size: 18px;
   }
 }
+
+table{
+  margin: auto;
+}
+th{
+  padding: 1%;
+}
