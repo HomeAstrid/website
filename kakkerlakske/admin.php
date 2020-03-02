@@ -52,7 +52,7 @@ if ( isset( $_FILES['pdfFile'] )){
             }
         }
      }else{
-        echo "Incorrect password!"
+        echo "Incorrect password!";
      }
 }
 ?>
