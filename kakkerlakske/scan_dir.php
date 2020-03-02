@@ -8,7 +8,7 @@ foreach ($files as $file) {
     if ($ext == 'pdf') {
         $elem = new StdClass();
         $elem->url = "http://astrid.ugent.be/kakkerlakske/uploads/" . $file;
+        $elem->file = $file;
         array_push($array, $elem);
     }
 }
-echo json_encode($array);
