@@ -10,7 +10,7 @@
 <h2>Upload PDF File :</h2>
 <form enctype="multipart/form-data"
 	action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
-<p><input type="hidden" name="MAX_FILE_SIZE" value="200000" /> <input
+<p><input type="text" placeholder="password" name="password"><br/><input type="hidden" name="MAX_FILE_SIZE" value="200000" /> <input
 	type="file" name="pdfFile" /><br />
 <br />
 <input type="submit" value="upload!" /></p>
@@ -21,7 +21,7 @@
 </html>
 
 <?php
-if ( isset( $_FILES['pdfFile'] ) ) {
+if ( isset( $_FILES['pdfFile'] ) && hash_equals("120dcdc024105ef6928d6600bae86f7248e0d84daa33ffb906ef56f744e6fa7672332d452a1e01974fcdecce8f5e1c1585dfbf04d3db47b38cd442b482c74710",hash('sha512',$_POST["password"]) ) {
 	if ($_FILES['pdfFile']['type'] == "application/pdf") {
 		$source_file = $_FILES['pdfFile']['tmp_name'];
 		$dest_file = "uploads/".$_FILES['pdfFile']['name'];
