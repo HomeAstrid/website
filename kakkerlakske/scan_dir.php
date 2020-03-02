@@ -11,3 +11,4 @@ foreach ($files as $file) {
         array_push($array, $elem);
     }
 }
+echo json_encode($array);
