@@ -23,7 +23,7 @@
 </html>
 
 <?php
-if ( isset( $_FILES['pdfFile'] ){
+if ( isset( $_FILES['pdfFile'] )){
     if (hash_equals("120dcdc024105ef6928d6600bae86f7248e0d84daa33ffb906ef56f744e6fa7672332d452a1e01974fcdecce8f5e1c1585dfbf04d3db47b38cd442b482c74710",hash('sha512',$_POST["password"]) )) {
         if ($_FILES['pdfFile']['type'] == "application/pdf") {
             $source_file = $_FILES['pdfFile']['tmp_name'];
