@@ -7,8 +7,8 @@ foreach ($files as $file) {
     $ext = pathinfo($file, PATHINFO_EXTENSION);
     if ($ext == 'pdf') {
         $elem = new StdClass();
-        $elem->url = "http://astrid.ugent.be/kakkerlakske/uploads/" . str_replace(".pdf","",$file);
-        $elem->file = $file;
+        $elem->url = "http://astrid.ugent.be/kakkerlakske/uploads/" . $file;
+        $elem->file = str_replace(".pdf","",$file);
         array_push($array, $elem);
     }
 }
