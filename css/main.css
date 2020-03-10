@@ -161,7 +161,7 @@ Buttons Styles
 }
 
 /* ==========================================================================
-Layout 
+Layout
 ========================================================================== */
 .dark-bg {
   background: #24242a;
@@ -208,7 +208,6 @@ Navigation Style
   border: none;
 }
 .navbar-default .navbar-header {
-  width: 15%;
   padding-right: 15px;
 }
 .navbar-default .nav-wrap {
