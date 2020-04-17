@@ -1,4 +1,4 @@
-<?
+<?php
 
 # 2009-06-24  v0.1  Frank.Meisschaert@UGent.be
 #
@@ -13,7 +13,7 @@
 #    $user = ugcas_simple_remote_user();
 #    echo "hello $user";
 #
-# This function will start a session with "session_start()" if no session 
+# This function will start a session with "session_start()" if no session
 # is active. So be sure to handle session configuration stuff before
 # calling "ugcas_simple_remote_user()". Also this function must be called
 # in every php script which is accessible from the outside, and no basic

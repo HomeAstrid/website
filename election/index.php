@@ -1,4 +1,4 @@
-<?
+<?php
 
 define('MY_URL','http://astrid.ugent.be/election/UGCAS_Simple.php');
 
