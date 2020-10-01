@@ -737,6 +737,11 @@ footer h6 {
   color: #fff;
 }
 
+.sponserimg{
+  display: inline-block;
+  width: 10%;
+}
+
     /* ==========================================================================
 Media Queries Style
 ========================================================================== */
@@ -823,6 +828,11 @@ Media Queries Style
   #testimonials h5 {
     font-size: 18px;
   }
+
+  .sponserimg{
+    width: 70%;
+  }
+
 }
 
 table{
