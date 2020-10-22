@@ -173,6 +173,11 @@ Layout
   color: black !important;
 }
 
+.grey-bg {
+  background: #DAD8D9;
+  color: black !important;
+}
+
     /* ==========================================================================
 Preloader Style
 ========================================================================== */
@@ -365,9 +370,57 @@ Welcome Style
 #welcome h2 span {
   font-weight: 700;
 }
+#welcome h6{
+  text-align: left;
+  padding-left: 20px;
+}
+
 #welcome img {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+  padding-right: 5px;
+  padding-left: 20px;
+  height: 250px;
+}
+
+#welcome .row {
+  background-color: white;
+}
+
+#welcome .col {
+  margin-left: 0px; 
+  display: inline-block;
+}
+
+#welcome .welcome_tekst {
+  padding-top: 15px;
+  padding-left: 14%;
+  padding-right: 14%;
+  font-size: 22px;
+}
+
+#welcome .tekst_naast_foto {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 80px;
+}
+
+#welcome .grey-bg{
+  background: #DAD8D9;
+  color: black !important;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 30px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+#welcome p {
+  color: #000;
 }
 
     /* ==========================================================================
