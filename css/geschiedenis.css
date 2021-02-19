@@ -25,14 +25,14 @@ p {
     float: right;
 }
 
-#geschiedenis {
+#boekje {
     width: 90%;
     height: 90vh;
     margin: auto;
     margin-top: 6em;
 }
 
-#geschiedenis iframe { 
+#boekje iframe { 
     display: block;
     width: 100%;
     height: 100%; 
