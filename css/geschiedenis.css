@@ -17,6 +17,14 @@ p {
     text-align: justify;
 }
 
+#image-one {
+    float: left;
+}
+
+#image-two {
+    float: right;
+}
+
 #boekje {
     width: 90%;
     height: 90vh;
