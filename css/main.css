@@ -219,11 +219,11 @@ Navigation Style
   width: 75%;
 }
 .navbar-default .nav > li > a {
-  font-size: 14px;
+  font-size: 13px;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 35px 15px;
+  padding: 35px 13px;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
