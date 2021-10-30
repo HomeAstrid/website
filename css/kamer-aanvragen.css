@@ -28,16 +28,3 @@ p {
     width: 400px;
     height: auto;
 }
-
-#boekje {
-    width: 90%;
-    height: 90vh;
-    margin: auto;
-    margin-top: 6em;
-}
-
-#boekje iframe { 
-    display: block;
-    width: 100%;
-    height: 100%; 
- }

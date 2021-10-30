@@ -802,8 +802,9 @@ Sponsors Style
   height: 140px;
   resize: none;
 }
-#sponsors img {
-  max-height: 200px;
+#sponsors .sponserimg {
+  max-height: 250px;
+  margin: 1em 1em;
 }
 
     /* ==========================================================================
