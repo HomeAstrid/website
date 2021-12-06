@@ -224,6 +224,7 @@ Navigation Style
   font-weight: 700;
   text-transform: uppercase;
   padding: 35px 13px;
+  margin-top: 10px;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;

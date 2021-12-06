@@ -17,14 +17,23 @@ p {
     text-align: justify;
 }
 
-#image-one {
-    float: left;
-    width: 400px;
-    height: auto;
+   /* ==========================================================================
+Sliders Style
+========================================================================== */
+
+
+.mySlides {
+    height: 600px;
+    width: auto;
+    display:none;
 }
 
-#image-two {
-    float: right;
-    width: 400px;
-    height: auto;
+.slide-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slide-buttons {
+    height: 100px;
 }
