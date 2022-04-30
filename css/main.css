@@ -215,9 +215,7 @@ Navigation Style
 .navbar-default .navbar-header {
   padding-right: 15px;
 }
-.navbar-default .nav-wrap {
-  width: 75%;
-}
+
 .navbar-default .nav > li > a {
   font-size: 12px;
   color: #fff;
@@ -262,6 +260,17 @@ Navigation Style
 }
 .top-nav-collapse .nav > li > a {
   padding: 30px 15px;
+}
+
+.flexbox-header {
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
 }
 
     /* ==========================================================================
