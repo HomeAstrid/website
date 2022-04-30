@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body {
+    background-color: #253139;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+
+}
+h2, h4 {
+    color:#fff;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    text-align: justify;
+}
+
+#image-one {
+    float: left;
+    width: 400px;
+    height: auto;
+}
+
+#image-two {
+    float: right;
+    width: 400px;
+    height: auto;
+}
+
