@@ -1,0 +1,3 @@
+[submodule "kakkerlakske"]
+	path = kakkerlakske
+	url = https://github.com/HomeAstrid/Kakkerlak.git
