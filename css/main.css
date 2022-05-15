@@ -265,6 +265,7 @@ Navigation Style
 .flexbox-header {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .flexbox-items {
