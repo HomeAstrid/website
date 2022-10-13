@@ -291,9 +291,10 @@ Navigation Style
   display: none;
   position: absolute;
   background-color: rgba(13, 13, 13, 0.6);
-  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  margin-top: -15px;
+  margin-left: -70px;
 }
 
 /* Links inside the dropdown */
