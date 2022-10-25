@@ -248,6 +248,12 @@ Navigation Style
   color: #a3a3a3;
 }
 
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 200px;
+}
+
 .top-nav-collapse {
   background: #24242a;
 }
