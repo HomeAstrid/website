@@ -19,7 +19,8 @@ p {
 
 
 .image {
-    width: 350px;
+    width: 320px;
     height: auto;
     display: inline-block;
+    margin: 1em 1em 2em;
 }
