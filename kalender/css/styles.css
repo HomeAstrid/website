@@ -1,0 +1,180 @@
+/* Algemene stijlen voor de kalender-container */
+#calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Kalender zelf */
+#calendar {
+    width: 100%;
+    max-width: 1200px;  /* Voeg een max-width toe voor de kalender zelf */
+    height: auto;
+    min-height: 700px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centreert de kalender als de breedte kleiner is dan 100% */
+}
+
+
+/* Dagweergave structuur */
+.fc-day-grid {
+    display: table;
+    width: 100%;
+}
+
+/* Individuele dagen */
+.fc-day {
+    width: 14.28%;
+    height: auto;
+    min-height: 80px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    vertical-align: top;
+    padding: 2px;
+}
+
+/* Stijlen voor de headers van de dagen */
+.fc-head {
+    background-color: #f2f2f2;
+    color: #003366;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Dagen van de week */
+.fc-day-header {
+    font-size: 1.2em;
+    padding: 8px;
+    text-align: center;
+    color: #003366;
+}
+
+/* Datum bovenaan elke dag */
+.fc-day-number {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #003366;
+}
+
+/* Weekend achtergrond */
+.fc-sat, .fc-sun {
+    background-color: #f7f7f7;
+}
+
+/* Evenement blokjes */
+.fc-event {
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 0.9em;
+    font-family: Arial, sans-serif;
+    white-space: normal !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    min-height: 60px;
+    line-height: 1.4em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/* Specifieke kleuren per type event */
+.fc-feest {
+    background-color: #bd91ff;
+    color: white;
+}
+
+.fc-bar {
+    background-color: #ffa669;
+    color: white;
+}
+
+.fc-cultuur {
+    background-color: #ff7b7b;
+    color: white;
+}
+
+.fc-cantus {
+    background-color: #6891ff;
+    color: white;
+}
+
+.fc-sport {
+    background-color: #ffda3f;
+    color: white;
+}
+
+.fc-milieu {
+    background-color: #94ff7c;
+    color: white;
+}
+
+.fc-lustrum {
+    background-color: #f9b1ff;
+    color: white;
+}
+
+.fc-overige {
+    background-color: #92f7ff;
+    color: white;
+}
+
+/* Filters bovenaan */
+#filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#filters label {
+    font-size: 1.1em;
+    margin: 5px 20px;
+}
+
+/* Responsive gedrag op mobiel */
+@media (max-width: 768px) {
+    #calendar-container {
+        padding: 15px;
+    }
+
+    #calendar {
+        min-height: 500px;
+    }
+
+    .fc-day {
+        min-height: 60px;
+    }
+
+    .fc-head,
+    .fc-day-header,
+    .fc-day-number {
+        font-size: 1em;
+    }
+
+    #filters {
+        font-size: 1em;
+    }
+
+    #filters label {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evenementen Kalender</title>
+
+    <!-- jQuery (zorg ervoor dat jQuery eerst geladen wordt) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- FullCalendar CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.min.css" rel="stylesheet">
+
+    <!-- Moment.js (vereist door FullCalendar) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <!-- FullCalendar JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.min.js"></script>
+
+    <!-- Google Calendar API -->
+    <script src="https://apis.google.com/js/platform.js"></script>
+
+    <!-- Je eigen CSS bestand voor de kalenderstijl -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<h1 style="text-align: center; color: #003366;">Evenementen Kalender</h1>
+
+<!-- Filter selectieboxen -->
+<div id="filters" style="display: flex; justify-content: center; flex-wrap: wrap; margin: 20px 0; text-align: center;">
+    <label><input type="checkbox" id="filter-feest"> Feest</label>
+    <label><input type="checkbox" id="filter-bar"> Bar</label>
+    <label><input type="checkbox" id="filter-cultuur"> Cultuur</label>
+    <label><input type="checkbox" id="filter-cantus"> Cantus</label>
+    <label><input type="checkbox" id="filter-sport"> Sport</label>
+    <label><input type="checkbox" id="filter-milieu"> Milieu</label>
+    <label><input type="checkbox" id="filter-lustrum"> Lustrum</label>
+    <label><input type="checkbox" id="filter-overige"> Overige</label>
+    <label><input type="checkbox" id="filter-all" checked> Toon alles</label>
+</div>
+
+<!-- Kalender container -->
+<div id="calendar"></div>
+
+
+<!-- Je eigen JavaScript bestand voor kalender logica -->
+<script src="../js/calendar.js"></script>
+</body>
+</html>
