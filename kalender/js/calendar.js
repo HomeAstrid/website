@@ -70,7 +70,15 @@ $(document).ready(function() {
                 'overflow-wrap': 'break-word',
                 'display': 'block'
             });
+
+            element.find('.fc-title').css({
+                'white-space': 'normal',
+                'word-break': 'break-word',
+                'overflow-wrap': 'break-word',
+                'display': 'block'
+            });
         }
+
     });
 
     // Filterfunctie voor evenementen
