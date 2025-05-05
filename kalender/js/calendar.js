@@ -1,6 +1,7 @@
 $(document).ready(function() {
     // Initialiseer de kalender met FullCalendar
     $('#calendar').fullCalendar({
+        locale: 'nl',
         googleCalendarApiKey: 'AIzaSyACbAXrKX9hpn10Pr2JtwaQly9XTWrM-08',
         events: function(start, end, timezone, callback) {
             $.ajax({
