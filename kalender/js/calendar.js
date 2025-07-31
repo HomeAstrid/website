@@ -2,10 +2,12 @@ $(document).ready(function() {
     // Initialiseer de kalender met FullCalendar
     $('#calendar').fullCalendar({
         locale: 'nl',
-        googleCalendarApiKey: 'AIzaSyACbAXrKX9hpn10Pr2JtwaQly9XTWrM-08',
+        googleCalendarApiKey: 'AIzaSyAQ4xmvN0nJ3Zmz16LF8MvVGcDjLQq0ppA',
         events: function(start, end, timezone, callback) {
             $.ajax({
-                url: 'https://www.googleapis.com/calendar/v3/calendars/2594086083783894d322bba6abfe7e14791dcb848343be5ffaa2138f162be631@group.calendar.google.com/events?key=AIzaSyACbAXrKX9hpn10Pr2JtwaQly9XTWrM-08',
+                //url: 'https://www.googleapis.com/calendar/v3/calendars/2594086083783894d322bba6abfe7e14791dcb848343be5ffaa2138f162be631@group.calendar.google.com/events?key=AIzaSyACbAXrKX9hpn10Pr2JtwaQly9XTWrM-08',
+                url: 'https://www.googleapis.com/calendar/v3/calendars/astrid.ugent@gmail.com/events?key=AIzaSyAQ4xmvN0nJ3Zmz16LF8MvVGcDjLQq0ppA',
+
                 dataType: 'json',
                 success: function(data) {
                     var events = data.items.map(function(item) {
