@@ -17,6 +17,8 @@ $(document).ready(function() {
                         // Bepaal de eventClass op basis van de titel
                         if (normalizedTitle.includes('feest')) {
                             eventClass = 'fc-feest';
+                        } else if (normalizedTitle.includes('lustrum')) {
+                            eventClass = 'fc-lustrum';
                         } else if (normalizedTitle.includes('bar')) {
                             eventClass = 'fc-bar';
                         } else if (normalizedTitle.includes('cultuur')) {
@@ -27,8 +29,6 @@ $(document).ready(function() {
                             eventClass = 'fc-sport';
                         } else if (normalizedTitle.includes('milieu')) {
                             eventClass = 'fc-milieu';
-                        } else if (normalizedTitle.includes('lustrum')) {
-                            eventClass = 'fc-lustrum';
                         } else {
                             eventClass = 'fc-overige';
                         }
