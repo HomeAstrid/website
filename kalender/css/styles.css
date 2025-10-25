@@ -21,10 +21,12 @@
     max-width: 1200px;
     height: auto;
     min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
+    margin-bottom: 40px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -102,42 +104,42 @@
 
 /* Specifieke kleuren per type event */
 .fc-feest {
-    background-color: #bd91ff;
+    background-color: #d69fff;
     color: white;
 }
 
 .fc-bar {
-    background-color: #ffa669;
+    background-color: #f1b27c;
     color: white;
 }
 
 .fc-cultuur {
-    background-color: #ff7b7b;
+    background-color: #ffbbbb;
     color: white;
 }
 
 .fc-cantus {
-    background-color: #6891ff;
+    background-color: #abc4ff;
     color: white;
 }
 
 .fc-sport {
-    background-color: #ffda3f;
+    background-color: #53dca5;
     color: white;
 }
 
 .fc-milieu {
-    background-color: #94ff7c;
+    background-color: #85ff91;
     color: white;
 }
 
 .fc-lustrum {
-    background-color: #f9b1ff;
+    background-color: #ffc3cd;
     color: white;
 }
 
 .fc-overige {
-    background-color: #92f7ff;
+    background-color: #ffe696;
     color: white;
 }
 
