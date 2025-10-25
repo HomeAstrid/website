@@ -690,6 +690,7 @@ Our Team Style
 }
 #team p {
   color: #fff;
+  text-align: center;
 }
 #team h4 {
   text-transform: uppercase;
@@ -1006,4 +1007,13 @@ table{
 }
 th{
   padding: 1%;
+}
+
+.team img {
+    width: 150px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10%;
+    display: block;
+    margin: 0 auto;
 }
