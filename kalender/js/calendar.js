@@ -63,7 +63,6 @@ $(document).ready(function() {
             "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"
         ],
         height: 'auto',
-
         // ✅ HIER: Tekst afbreken forceren
         eventRender: function(event, element) {
             element.css({
@@ -72,7 +71,6 @@ $(document).ready(function() {
                 'overflow-wrap': 'break-word',
                 'display': 'block'
             });
-
             element.find('.fc-title').css({
                 'white-space': 'normal',
                 'word-break': 'break-word',
