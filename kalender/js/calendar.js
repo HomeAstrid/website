@@ -32,7 +32,6 @@ $(document).ready(function() {
                         } else {
                             eventClass = 'fc-overige';
                         }
-
                         var startDate = item.start.dateTime || item.start.date;
                         var endDate = item.end.dateTime || item.end.date;
 
@@ -58,10 +57,10 @@ $(document).ready(function() {
         fixedWeekCount: false,
         firstDay: 1,
         dayNames: [
-            "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"
+            "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"
         ],
         dayNamesShort: [
-            "zondag", "maandag", "dinsdag", "woensdag", "vrijdag", "zaterdag", "zondag"
+            "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"
         ],
         height: 'auto',
 
