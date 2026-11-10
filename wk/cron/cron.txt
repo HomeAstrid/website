@@ -1,2 +1,0 @@
-MAILTO="pieterreuse@gmail.com"
-0 4 * * * /home/astrid/cron/cronjob.sh
